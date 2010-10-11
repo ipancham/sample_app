@@ -1,3 +1,5 @@
+require 'sessions_controller'
+
 class SessionsController < ApplicationController
   def new
     @title = "Sign in"
@@ -21,3 +23,5 @@ class SessionsController < ApplicationController
     redirect_to root_path
   end
 end
+
+
